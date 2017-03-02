@@ -11,11 +11,11 @@
 <!--- Navigation -->
 
 
-<header>
+<header id="header_bar" class="header">
       <div id="header-inner">
         <a href="#about" id="logo"></a>
         <nav>
-          <a href="#" id="menu-icon"></a>
+          <a  id="menu-icon"></a>
           <ul>
             <li><a href="#about" class="slide-section">ABOUT</a></li>
             <li><a href="#portfolio" class="slide-section">PORTFOLIO</a></li>
@@ -131,5 +131,8 @@
 <!-- scripts -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript" src="custom.js"></script>
+<script type="text/javascript">
+  window.onscroll = fadeNav;
+</script>
 </body>
 </html>
