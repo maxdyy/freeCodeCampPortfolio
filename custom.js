@@ -7,7 +7,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     if (target.length) {
       $('html, body').animate({
         scrollTop: target.offset().top - headerHeight
-      }, 1000);
+      }, 1200);
       return false;
     }
   }
